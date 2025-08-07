@@ -1,0 +1,77 @@
+
+body {
+  font-family: monospace;
+  background-color: #1a1a1a;
+  color: #d0f0c0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a8ff60;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.trade-window {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.nft-stack {
+  position: relative;
+  width: 100px;
+  height: 140px;
+}
+
+.nft-card {
+  width: 100px;
+  height: 140px;
+  background-color: #333;
+  border: 2px solid #a8ff60;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlap {
+  top: 10px;
+  left: 10px;
+}
+
+.coin-logo {
+  width: 50px;
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  color: #1a1a1a;
+  background-color: #a8ff60;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
